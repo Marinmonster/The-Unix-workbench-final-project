@@ -16,6 +16,6 @@
 
 
  
-   rm README.md
+  # rm README.md
 
 #END
