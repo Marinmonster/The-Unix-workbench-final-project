@@ -11,7 +11,7 @@
    echo "The date of runing:" >> README.md
    now=$(date +%Y-%m-%d-%H-%M-%S)
    echo -e $now >> README.md
-   echo "The total number of lines of the program:" >> README.md
+   echo -e "\nThe total number of lines of the program:" >> README.md
    wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 
 
