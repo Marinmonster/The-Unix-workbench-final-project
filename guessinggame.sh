@@ -2,7 +2,7 @@
 # File guessinggame.sh
 
 #Set the true answer
-T_s=$(ls -l|wc -l)
+T_s=$(find -mindepth 1 -type f| wc -l)
 
 #Start guessing
 
